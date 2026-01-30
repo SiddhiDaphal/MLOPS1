@@ -1,0 +1,8 @@
+stages:
+  analyze:
+    cmd: python code\main.py
+    deps:
+    - code\main.py
+    - data\dataset1.csv
+    outs:
+    - data\summary.csv

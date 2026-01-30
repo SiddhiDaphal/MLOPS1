@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  analyze:
+    cmd: python code\main.py
+    deps:
+    - path: code\main.py
+      hash: md5
+      md5: 172bc3e851e0ca7bb4b0e821be6ba116
+      size: 135
+    - path: data\dataset1.csv
+      hash: md5
+      md5: 5fa645161fb56000d90cdaa51c7ee53f
+      size: 175563
+    outs:
+    - path: data\summary.csv
+      hash: md5
+      md5: 4ca9c63cf6392ddf7b89bddb907e5514
+      size: 276
