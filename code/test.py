@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("C:\\Users\\USER\\ML1\\data\\cleaned_sales.csv")
+df = pd.read_csv("C:\\Users\\USER\\OneDrive\\Desktop\\MLOPS1\\data\\dataset1.csv")
 
 # Show first 5 rows
 print("\nFirst 5 rows:")
